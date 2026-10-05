@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Release|Win32"><Configuration>Release</Configuration><Platform>Win32</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{7B75C2A0-3A65-4C9D-AF19-9C8A1F2C0011}</ProjectGuid><Keyword>Win32Proj</Keyword><RootNamespace>RealityIV_VkLayer</RootNamespace><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration"><ConfigurationType>DynamicLibrary</ConfigurationType><UseDebugLibraries>false</UseDebugLibraries><PlatformToolset>v143</PlatformToolset><CharacterSet>Unicode</CharacterSet></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup><OutDir>$(SolutionDir)bin\Win32\Release\</OutDir><IntDir>$(SolutionDir)obj\Win32\Release\</IntDir><TargetName>RealityIV_VkLayer32</TargetName></PropertyGroup>
+  <ItemDefinitionGroup><ClCompile><WarningLevel>Level3</WarningLevel><Optimization>MaxSpeed</Optimization><PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;VK_NO_PROTOTYPES;%(PreprocessorDefinitions)</PreprocessorDefinitions><AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories><LanguageStandard>stdcpp17</LanguageStandard></ClCompile><Link><SubSystem>Windows</SubSystem><ModuleDefinitionFile>RealityIV_VkLayer.def</ModuleDefinitionFile></Link></ItemDefinitionGroup>
+  <ItemGroup><ClCompile Include="RealityIV_VkLayer.cpp" /><None Include="RealityIV_VkLayer.def" /><None Include="RealityIV_VkLayer.json" /></ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

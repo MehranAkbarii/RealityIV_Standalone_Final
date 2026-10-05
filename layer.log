@@ -1,0 +1,10 @@
+load_runtime() called
+Runtime already loaded
+Calling ReShadeCreateEffectRuntime...
+VkDevice: VALID
+VkQueue: VALID
+VkSwapchainKHR: VALID
+Config: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV\ReShade.ini
+Calling ReShadeCreateEffectRuntime...
+ReShadeCreateEffectRuntime returned FALSE
+FAILED: ReShadeCreateEffectRuntime.

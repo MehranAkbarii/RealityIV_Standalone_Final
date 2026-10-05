@@ -1,0 +1,5 @@
+LIBRARY RealityIV_VkLayer32
+EXPORTS
+    vkGetInstanceProcAddr
+    vkGetDeviceProcAddr
+    vkNegotiateLoaderLayerInterfaceVersion
