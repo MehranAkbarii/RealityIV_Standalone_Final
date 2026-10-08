@@ -30,9 +30,8 @@ Put these beside `GTAIV.exe`:
 - `RealityIV.asi`
 - `ReShade32.dll`
 - `ReShade32.json`
-- `RealityFX.addon32`
 - `RealityIV_Loader.ini`
-- the original RealityIV `ReShade.ini`, `RealityIV_Preset.ini`, `RealityFX.ini`, `reshade-shaders` and `RealityFX` asset folders.
+- the original RealityIV `ReShade.ini`, `RealityIV_Preset.ini`, `RealityFX.ini`, `reshade-shaders`, `RealityFX.addon32` and `RealityFX` asset folders.
 
 Remove from the old setup: `RealityIV_VkLayer32.dll`, `RealityIV_VkLayer.json`, and any leftover
 `RealityIV_*.log` files. Do not set `VK_LAYER_PATH` / `VK_INSTANCE_LAYERS` yourself.
