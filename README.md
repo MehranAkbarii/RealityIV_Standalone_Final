@@ -28,9 +28,10 @@ Open `RealityIV_Standalone.sln`, configuration `Release | x86`. Output:
 Put these beside `GTAIV.exe`:
 
 - `RealityIV.asi`
-- `ReShade.dll` (32-bit, **add-on support build**; `ReShade32.dll` is also found)
+- `ReShade32.dll`
+- `ReShade32.json`
 - `RealityFX.addon32`
-- `RealityIV_Loader.ini` (optional, see `runtime\`)
+- `RealityIV_Loader.ini`
 - the original RealityIV `ReShade.ini`, `RealityIV_Preset.ini`, `RealityFX.ini`, `reshade-shaders` and `RealityFX` asset folders.
 
 Remove from the old setup: `RealityIV_VkLayer32.dll`, `RealityIV_VkLayer.json`, and any leftover
