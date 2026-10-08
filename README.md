@@ -33,9 +33,6 @@ Put these beside `GTAIV.exe`:
 - `RealityIV_Loader.ini`
 - the original RealityIV `ReShade.ini`, `RealityIV_Preset.ini`, `RealityFX.ini`, `reshade-shaders`, `RealityFX.addon32` and `RealityFX` asset folders.
 
-Remove from the old setup: `RealityIV_VkLayer32.dll`, `RealityIV_VkLayer.json`, and any leftover
-`RealityIV_*.log` files. Do not set `VK_LAYER_PATH` / `VK_INSTANCE_LAYERS` yourself.
-
 On start the ASI writes `RealityIV_Layer\ReShade32_Layer.json` (absolute path to your ReShade.dll)
 and registers it. ReShade loads `RealityFX.addon32` on its own from its folder.
 
