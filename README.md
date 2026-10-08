@@ -50,8 +50,6 @@ and registers it. ReShade loads `RealityFX.addon32` on its own from its folder.
 - No `ReShade.log`: set `LayerMode=env` in `RealityIV_Loader.ini` (or `registry` if you were on `env`).
   `env` needs Vulkan loader 1.3.234 or newer.
 - Do not run the game as administrator; the Vulkan loader may ignore per-user layer settings then.
-- If the game is killed or crashes, the registry entry is not removed. It is harmless for the game
-  (same path is reused next time), but other 32-bit Vulkan apps would also load ReShade until you
   start and close the game once normally.
 - Two overlays or doubled effects: set `DisableGraphicsHook=1`.
 - `RealityIV_Loader.log` says ReShade.dll was not found: the DLL must be beside the `.asi` or the `.exe`.
